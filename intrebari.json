@@ -1,0 +1,28 @@
+[
+    {
+        "intrebare": ["Care sunt metodele de  plată?"],
+        "variante": ["Cash", "Revolut", "Card", "Online", "Toate"],
+        "corect": 4
+    },
+
+    {
+        "intrebare": ["Ce cumpara oamenii pentru pereți?"],
+        "variante": ["BCA", "Bolțari", "Căramidă", "Rigips", "Nu cumpără"],
+        "corect": 4
+    },
+    {
+        "intrebare": ["Vreți o casă nouă pentru soacră?"],
+        "variante": [ "da", "da, din toată inima", "În Laponia nu are nevoie", "Are casa ei", "nu, este loc sub pod la Nicolina"],
+        "corect": 1
+    },
+    {
+        "intrebare": ["Care este cea mai bună tablă?"],
+        "variante": [ "Falcon", "Bilka", "De  zinc", "Asbestul e mai bun", "Carrenta"],
+        "corect": 3
+    },
+    {
+        "intrebare": ["În cât timp livrați?"],
+        "variante": [ "da", "depinde de zonă", "depinde de șoferi", "depinde de marfă", "depinde de volumul cumpărăturilor"],
+        "corect": 0
+    }
+]

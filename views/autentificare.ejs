@@ -1,0 +1,16 @@
+<form class = 'forms' action="/verificare-autentificare", method="post">
+    <p>
+        <% if (u!=null && u!=="Error"){ %>
+            <p>Conectat ca și , <%= u%></p>
+            <form action="de-logare", method="get">
+                <input type="submit" value="Delogare">
+            </form>
+         <% } else { %>
+            <% } %> 
+    </p>
+    <label for="uname">Nume utilizator:</label><br>
+    <input type="text" id="uname" name="fname"><br><br>
+    <label for="pname">Parola:</label><br>
+    <input type="password" id="pass" name="pname"><br><br>
+    <button id = "button"type="submit">Autentificare</button><br>
+</form>

@@ -1,0 +1,53 @@
+<div class="index">
+    <a class = "chestionar" href="/chestionar">Chestionar</a>  
+    <a class = "autentificare"href="/autentificare">Autentificare</a>
+</div>
+<div>
+    <p>
+        <% if (u!=null && u!=="Error"){ %>
+            <p> Conectat ca și , <%= u%></p>
+            <form action="de-logare", method="get">
+                <input type="submit" value="Delogare">
+            </form>
+            <div>
+                <form  action="creare-DB", method="get">
+                    <input class='creare' type="submit" value="creare-DB">
+                </form>
+                <form action="insertIntoDB", method="get">
+                    <input class ='insert' type="submit" value="insert">
+                </form>
+                <form action="selectFromDB", method="get">
+                    <input class ='select' type="submit" value="select">
+                </form>
+                <form action="vizualizare-cos", method="get">
+                    <input class ='cos' type="submit" value="vezi cos">
+                </form>
+            </div> 
+         <% } else { %>
+            <% } %> 
+    </p>
+    
+    <% if (tabela){ %>
+        <table><tr><td>ID</td><td>Nume</td><td>Preț</td></tr>
+            <% for(let i = 0; i < tabela.length; i++)
+            { %>
+            <tr><td><%= tabela[i].id %></td><td><%= tabela[i].nume %></td><td><%= tabela[i].pret %> </td> <td>
+                <% if (u!=null && u!=="Error"){ %>
+                    <form class ="butonAdd"action="adaugare_cos", method="get">
+                        <input type="submit" value="adauga">
+                        <input type="hidden" name="id" value= "<%= tabela[i].id%>">
+                        <input type="hidden" name="nume" value= "<%= tabela[i].nume%>">
+                        <input type="hidden" name="pret" value= "<%= tabela[i].pret%>">
+                    </form>
+                    <% } %> 
+            </td></tr>
+            <%}  %>
+        </table>
+                
+   
+    <% } %>  
+	
+    
+    
+</div>
+ 

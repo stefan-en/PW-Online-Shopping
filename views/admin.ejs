@@ -1,0 +1,16 @@
+<p>
+    <% if (u!=null && u!=="Error"){ %>
+        <p>Conectat ca și , <%= u%></p>
+        <form action="de-logare", method="get">
+            <input type="submit" value="Delogare">
+        </form>
+        <% } else { %>
+        <% } %> 
+</p>
+<form action="incarca-produs", method="post">
+<label for="unprodus">Nume produs:</label><br>
+<input type="text" id="unprodus" name="produs"><br><br>
+<label for="unpret">Pret:</label><br>
+<input type="text" id="unpret" name="pret"><br><br>
+<button id = "button"type="submit">Încarca</button><br>
+</form>

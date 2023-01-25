@@ -1,0 +1,69 @@
+.interfata{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+.interfata{
+    background-color: burlywood;
+}
+
+.title{
+    position: relative;
+    left: 300px
+}
+.index{
+    background-color: cadetblue;
+    margin-left: 13cm;
+    margin-right: 18cm;
+}
+.chestionar{
+    color: azure;
+    box-sizing: content-box;
+    text-decoration: none;;
+    width: 70%;
+    box-sizing: border-box;
+    opacity: .8;
+    width: 50%;
+    margin-left: 1cm;
+   
+}
+.autentificare{
+    color: azure;
+    box-sizing: content-box;
+    text-decoration: none;
+    width: 70%;
+    box-sizing: border-box;
+    opacity: .8;
+    width: 50%;
+    top: 50px;
+    margin-left: 1cm;
+}
+.intrebari{
+    margin-left: 9cm;
+    margin-right: 14cm;
+    opacity: .8;
+    background-color: cadetblue;
+}
+.rchestionar{
+    color: black;
+}
+.creare{
+    margin-top:5 cm;
+    margin-left :1cm;
+}
+.insert{
+    margin-top: -15cm;
+    margin-left :3cm;
+}
+.select{
+    margin-top: -15cm;
+    margin-left :4.2cm;
+}
+.cos{
+    margin-top: -15cm;
+    margin-left :5.5cm;
+}
+table,th,tr{
+    border : 1px solid black;
+    background-color: #61bde2;
+    border-collapse: collapse;
+} 

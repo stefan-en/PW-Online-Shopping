@@ -1,0 +1,19 @@
+[
+    {
+        "username":"Vasi",
+        "password":"test"
+    },
+    {
+        "username":"vasi",
+        "password":"acasa"
+    },
+    {
+        "username":"vasi",
+        "password":"varza"
+    },
+    {
+        "username":"admin",
+        "password":"admin"
+    }
+
+]
